@@ -1,0 +1,33 @@
+{
+  "name": "piit",
+  "version": "0.0.1",
+  "description": "A Squiz Boilerplate design cutup",
+  "authors": [
+    "rgaladyk@squiz.net"
+  ],
+  "private": true,
+  "scripts": {},
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "del": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-changed": "^1.3.0",
+    "gulp-compile-handlebars": "^0.5.0",
+    "gulp-squiz-boilerplate": "git+ssh://git@gitlab.squiz.net:boilerplate/gulp-squiz-boilerplate.git",
+    "gulp-sourcemaps": "^1.6.0",
+    "browser-sync": "^2.9.x",
+    "gulp-rename": "^1.2.2",
+    "gulp-util": "^3.0.6",
+    "gulp-watch": "^4.2.4",
+    "lodash": "^3.9.3",
+    "lodash.defaults": "^3.1.1",
+    "minimist": "^1.1.1",
+    "require-dir": "^0.3.0",
+    "handlebars": "*",
+    "cacheable-fs": "git://github.com/ironikart/cacheable-fs.git",
+    "through2": "^0.6.5"
+  },
+  "engines": {
+    "node": ">=4.x"
+  }
+}
